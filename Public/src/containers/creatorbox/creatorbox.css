@@ -1,0 +1,96 @@
+.creatorbox-container {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.creatorbox-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 225px;
+  min-height: 20vh;
+
+  background-color: var(--color-normal);
+
+  border-radius: 10px;
+}
+
+.creatorbox-firstpart {
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.creatorbox-secondpart {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  justify-content: center;
+}
+.creatorbox-name-text {
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.creatorbox-username {
+  font-size: 7px;
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.creatorbox-name {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-dark);
+
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.creatorbox-circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+
+  background: var(--color-light);
+  color: var(--color-dark);
+  text-align: center;
+
+  font-family: var(--font-family-text);
+  font-weight: bold;
+}
+
+.creatorbox-header {
+  font-family: var(--font-family-text);
+  font-weight: bold;
+  color: var(--color-dark);
+
+  margin-top: 20px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+
+  text-align: left;
+}

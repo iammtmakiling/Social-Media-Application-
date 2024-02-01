@@ -1,0 +1,11 @@
+export { default as Friendrequest } from './friendrequest/Friendrequest';
+export { default as Friends } from './friends/Friends';
+export { default as HomePosts } from './homePosts/HomePosts';
+export { default as Miniprofile } from './miniprofile/Miniprofile';
+export { default as Miniprofilefr } from './miniprofilefr/Miniprofilefr';
+export { default as Miniprofilesugg } from './miniprofilesugg/Miniprofilesugg';
+export { default as Ownpostbox } from './ownpostbox/Ownpostbox';
+export { default as Postbox } from './postbox/Postbox';
+export { default as Profilebox } from './profilebox/Profilebox';
+export { default as Stats } from './stats/Stats';
+export { default as Timelinebox } from './timelinebox/Timelinebox';

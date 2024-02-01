@@ -1,0 +1,47 @@
+.sidebar-friends {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.sidebar-friends-user {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: left;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.sidebar-friends-icon {
+  color: var(--color-dark);
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-friends-text {
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-viewmore {
+  border-width: 0;
+  background-color: transparent;
+
+  font-size: 10px;
+  color: var(--color-dark);
+
+  cursor: pointer;
+  margin-top: 10px;
+}

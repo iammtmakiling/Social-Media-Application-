@@ -1,0 +1,69 @@
+.sidebar-friends-fullname {
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-friends-username {
+  font-size: 8px;
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-friendsugg-box {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.miniprofilesugg-icon{
+  color: var(--color-dark);
+  height: 15px;
+  width: 15px;
+
+  cursor: pointer;
+}
+
+.sidebar-friends-info{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.sidebar-friends-name {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.sidebar-friends-circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+
+  background: var(--color-light);
+  color: var(--color-dark);
+  text-align: center;
+
+  font-family: var(--font-family-text);
+  font-weight: bold;
+}

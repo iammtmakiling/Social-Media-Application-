@@ -1,0 +1,124 @@
+.home-container {
+  overflow: hidden;
+}
+.centeredSpinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  margin: 0px;
+
+  padding-bottom: 20px;
+}
+
+.home-left {
+  display: flex;
+
+  margin: 0px;
+}
+
+.home-middle {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0px;
+}
+
+.home-right {
+  display: flex;
+
+  row-gap: 20px;
+  margin: 0px;
+}
+
+.home-middle-text {
+  color: var(--color-dark);
+  font-weight: bold;
+  letter-spacing: 7px;
+  font-size: 25px;
+
+  margin-top: 100px;
+  margin-bottom: 0px;
+
+  text-align: left;
+}
+
+.home-right-ad {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30px;
+}
+
+.home-right-suggested p{
+  text-align: left;
+  color: var(--color-dark);
+  font-weight: bold;
+}
+
+.home-right-suggested button{
+  background-color: var(--color-dark);
+  border-radius: 30px;
+  height: 25px;
+  width: 70px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.home-right-suggested a{
+  color: var(--color-light);
+  text-decoration: none;
+  font-family: var(--font-family-text);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.suggested-header-text{
+  font-size: 20px;
+}
+
+.suggested-text-small{
+  font-size: 12px;
+}
+
+.suggested-photo{
+  height: 225px;
+  width: 225px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(79, 74, 71, 0.3),
+    rgba(79, 74, 71, 0.3)
+  ),
+  url("../../assets/adphoto.jpg");
+
+  margin-bottom: 15px;
+}
+
+.suggested-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  column-gap: 10px;
+}
+
+.home-middle-reversed{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.home-spinner{
+  width: 100px;
+  height: 100px;
+  color: var(--color-dark);
+}

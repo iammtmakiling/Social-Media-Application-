@@ -1,0 +1,21 @@
+.sidebar-friendrequest {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: center;
+  row-gap: 10px;
+  margin: auto;
+
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.sidebar-friendrequests {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-friends-user{
+  display: flex;
+}

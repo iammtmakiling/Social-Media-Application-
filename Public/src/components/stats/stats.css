@@ -1,0 +1,33 @@
+.sidebar-stats {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 30px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.sidebar-stats-box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.sidebar-stats-number {
+  color: var(--color-dark);
+  margin-top: 0.5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sidebar-stats-text {
+  color: var(--color-dark);
+  margin-bottom: -0.5px;
+  font-size: 7px;
+}

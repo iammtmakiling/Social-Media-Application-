@@ -1,0 +1,85 @@
+.sidebar-friends-fullname {
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-friends-username {
+  font-size: 8px;
+  font-family: var(--font-family-text);
+  color: var(--color-dark);
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar-friendsfr-box {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.sidebar-friends-info{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.sidebar-friends-buttons{
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sidebar-friends-buttons p {
+  color: var(--color-dark);
+  padding-top: 20px;
+}
+
+.sidebar-friends-buttons button {
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  width: 60px;
+  height: 25px;
+
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--color-dark);
+  cursor: pointer;
+}
+
+.sidebar-friends-name {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.sidebar-friends-circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+
+  background: var(--color-light);
+  color: var(--color-dark);
+  text-align: center;
+
+  font-family: var(--font-family-text);
+  font-weight: bold;
+}

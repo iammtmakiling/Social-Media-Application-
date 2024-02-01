@@ -1,0 +1,54 @@
+.friendsuggestion-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.friendsuggestion-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 225px;
+  min-height: 100px;
+  background-color: var(--color-normal);
+  border-radius: 10px;
+}
+
+.suggSpinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  height: 100px;
+}
+
+.friendsuggestion-firstpart {
+  display: flex;
+
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.friendsuggestion-icon {
+  color: var(--color-dark);
+
+  margin-left: 5px;
+}
+
+.friendsuggestion-text {
+  color: var(--color-dark);
+  font-family: var(--font-family-text);
+  font-weight: bold;
+
+  margin: auto;
+  margin-left: 10px;
+}
+
+.friendsuggestion-secondpart {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+  row-gap: 5px;
+}

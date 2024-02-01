@@ -1,0 +1,20 @@
+.homePostsContainer{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px;
+}
+
+.home-middle-reversed{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sidebarSpinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height:250px;
+    min-width: 700px;
+}
